@@ -1,16 +1,12 @@
-import React from "react";
-import Sidebar from "../Sidebar/Sidebar";
-import UserDetails from "../DetallesUsuario/UserDetails";
-import ImageSelector from "../selectorimagen/ImageSelector";
+import React from 'react';
 
-const UserProfileApp = () => {
+function UserProfileApp() {
   return (
-    <div className="user-profile-container">
-      <Sidebar />
-      <UserDetails />
-      <ImageSelector />
+    <div>
+      <h1>Perfil de Usuario</h1>
+      <p>Esta es la página de perfil de usuario.</p>
     </div>
   );
-};
+}
 
 export default UserProfileApp;
