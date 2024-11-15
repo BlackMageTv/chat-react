@@ -109,3 +109,6 @@
 .chat-input button:hover {
   background-color: #2980b9;
 }
+
+/* Importa Bootstrap */
+@import url('https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css');
